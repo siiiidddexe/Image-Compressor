@@ -1,0 +1,20 @@
+- Extract all the files from the zip to a folder
+- Now copy in all the images you wanna compress into the input folder
+- first using anaconda promt cd into the current directory where u extracted the zip
+- Run this in anaconda promt shell to install requirements
+1st command: pip install -r requirements.txt
+2nd command: python app.py
+3rd type "n" if you want to go with the default setting ie 85% Jpeg Qaulity + 0.8 Res
+4th type "y" if you want to go with the custom setting ie custom % Jpeg Qaulity + 0.8 custom Res allowing u to make the side sammer than u want
+-You will  have all your compressed images in the output folder
+
+# Note all the Output Files will have the Same Name as the Input Files Allowing You To Bulk Copy and Replace on Larger Projects.
+Fork The code and make modifications if needed!
+
+Happy to help GGS.
+
+Generic Setttigs (use these settings in custom for the required result)
+- Super commpressed (50% quality and 0.5 res)
+- Medium commpressed (70% quality and 0.6 res)
+- Light commpressed (80% quality and 0.7 res)
+- Default Ultra light commpressed (85% quality and 0.8 res)
